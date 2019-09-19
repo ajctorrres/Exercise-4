@@ -11,8 +11,8 @@ package exercise4;
  * @author torresar_cis21035
  */
 public class Rectangle {
-    float length;
-    float width;
+    private float length;
+    private float width;
     
     public Rectangle(){
         this.length = 1.0f;

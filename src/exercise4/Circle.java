@@ -11,7 +11,7 @@ import java.lang.Math;
  * @author torresar_cis21035
  */
 public class Circle {
-    double radius;
+    private double radius;
     
     public Circle(){
         this.radius = 1.0;
