@@ -17,8 +17,17 @@ public class Exercise4 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Rectangle r = new Rectangle();
-        System.out.println(r.toString());
+       
+        Rectangle rec = new Rectangle(20,50);
+        System.out.println(rec.toString());
+        System.out.println("Perimeter: "+rec.getPerimeter());
+        System.out.println("Area: "+rec.getArea()+"sq. unit");
+        
+        Circle cir = new Circle(13);
+        System.out.println(cir.toString());
+        System.out.println("Circumference: "+cir.getCircumference());
+        System.out.println("Area: "+cir.getArea()+"sq. unit");
+        
     }
     
 }
